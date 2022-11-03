@@ -7,5 +7,5 @@ package com.xiaohu.heimadianping.constant;
  */
 public class RedisConstant {
     public static final String SECKILL_STOCK_KEY = "seckill:stock:";
-    public static final long SECKILL_STOCK_TTL = 10L;
+    public static final long SECKILL_STOCK_TTL = 1L;
 }
