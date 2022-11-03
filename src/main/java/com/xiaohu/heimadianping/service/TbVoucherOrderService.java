@@ -1,6 +1,7 @@
 package com.xiaohu.heimadianping.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.xiaohu.heimadianping.common.Result;
 import com.xiaohu.heimadianping.domain.TbVoucherOrder;
 
 /**
@@ -10,4 +11,10 @@ import com.xiaohu.heimadianping.domain.TbVoucherOrder;
 */
 public interface TbVoucherOrderService extends IService<TbVoucherOrder> {
 
+    /**
+     * 秒杀优惠卷
+     * @param id
+     * @return
+     */
+    Result secKillVoucher(Long id);
 }
