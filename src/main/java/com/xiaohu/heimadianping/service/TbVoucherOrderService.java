@@ -17,4 +17,11 @@ public interface TbVoucherOrderService extends IService<TbVoucherOrder> {
      * @return
      */
     Result secKillVoucher(Long id);
+
+    /**
+     * 创建保存订单
+     * @param voucherOrder
+     * @return
+     */
+    void createVoucherOrder(TbVoucherOrder voucherOrder);
 }
